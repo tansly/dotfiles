@@ -1,0 +1,6 @@
+alias ll='ls -lh'
+alias la='ls -A'
+alias l='ls -CF'
+alias lla='ls -lhA'
+alias upgrade='sudo aptitude update && sudo aptitude upgrade'
+alias bri='xrandr --output HDMI-0 --brightness'
