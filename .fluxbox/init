@@ -61,7 +61,7 @@ session.tabsAttachArea:	Window
 session.slitlistFile:	/home/tansly/.fluxbox/slitlist
 session.forcePseudoTransparency:	false
 session.styleOverlay:	/home/tansly/.fluxbox/overlay
-session.menuFile:	~/.fluxbox/menu
+session.menuFile:	~/.fluxbox/my-menu
 session.cacheMax:	200
 session.keyFile:	~/.fluxbox/keys
 session.colorsPerChannel:	4
