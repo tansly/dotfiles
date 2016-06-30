@@ -149,7 +149,12 @@ Mod4 KP_4 :Exec xterm # my habit
 Mod4 KP_5 :Exec gnome-control-center sound # until i figure out a better way to change my sound device
 
 # gnome-like window snapping
-Mod4 Left :MacroCmd {ResizeTo 1278 1050} {MoveTo 0 0 TopLeft}
-Mod4 Right :MacroCmd {ResizeTo 1278 1050} {MoveTo 0 0 UpperRight}
+Mod4 Left :MacroCmd {ResizeTo 1280 1060} {MoveTo 0 0 TopLeft}
+Mod4 Right :MacroCmd {ResizeTo 1280 1060} {MoveTo 0 0 UpperRight}
 Mod4 Up :MaximizeWindow
 Mod4 Down :MacroCmd {ResizeTo 70% 100%} {MoveTo 15% 0% UpperLeft}
+
+# keys to control clementine media player
+Control KP_4 :Exec clementine --previous
+Control KP_5 :Exec clementine --play-pause
+Control KP_6 :Exec clementine --next
