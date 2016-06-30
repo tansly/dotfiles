@@ -91,8 +91,8 @@ Control Mod1 Left :PrevWorkspace
 Control Mod1 Right :NextWorkspace
 
 # send the current window to previous/next workspace
-Mod4 Left :SendToPrevWorkspace
-Mod4 Right :SendToNextWorkspace
+Control Mod1 Shift Left :SendToPrevWorkspace
+Control Mod1 Shift Right :SendToNextWorkspace
 
 # send the current window and follow it to previous/next workspace
 Control Mod4 Left :TakeToPrevWorkspace
@@ -146,3 +146,10 @@ Mod4 KP_1 :Exec firefox
 Mod4 KP_2 :Exec icedove
 Mod4 KP_3 :Exec xterm
 Mod4 KP_4 :Exec xterm # my habit
+Mod4 KP_5 :Exec gnome-control-center sound # until i figure out a better way to change my sound device
+
+# gnome-like window snapping
+Mod4 Left :MacroCmd {ResizeTo 1278 1050} {MoveTo 0 0 TopLeft}
+Mod4 Right :MacroCmd {ResizeTo 1278 1050} {MoveTo 0 0 UpperRight}
+Mod4 Up :MaximizeWindow
+Mod4 Down :MacroCmd {ResizeTo 70% 100%} {MoveTo 15% 0% UpperLeft}
