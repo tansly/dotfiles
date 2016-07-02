@@ -1,1 +1,1 @@
-exec $HOME/local/bin/fluxbox
+exec startfluxbox

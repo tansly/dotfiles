@@ -144,7 +144,7 @@ Control Mod4 F12 :TakeToWorkspace 12
 # shortcuts to programs
 Mod4 KP_1 :Exec firefox
 Mod4 KP_2 :Exec icedove
-Mod4 KP_3 :Exec xterm
+Mod4 KP_3 :Exec thunar # file manager
 Mod4 KP_4 :Exec xterm # my habit
 Mod4 KP_5 :Exec gnome-control-center sound # until i figure out a better way to change my sound device
 

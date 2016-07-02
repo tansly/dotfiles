@@ -7,14 +7,18 @@
 # Change your keymap:
 xmodmap "/home/tansly/.Xmodmap"
 
+# Set the wallpaper:
+fbsetbg -a $HOME/.fluxbox/backgrounds/black.png
+
 # Applications you want to run with fluxbox.
 # MAKE SURE THAT APPS THAT KEEP RUNNING HAVE AN ''&'' AT THE END.
 #
 # unclutter -idle 2 &
-# wmnd &
 # wmsmixer -w &
 # idesk &
-#
+wmcpu -l &
+wmnd &
+
 # Debian-local change:
 #   - fbautostart has been added with a quick hack to check to see if it
 #     exists. If it does, we'll start it up by default.
