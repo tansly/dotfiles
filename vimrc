@@ -30,6 +30,13 @@ Plugin 'VundleVim/Vundle.vim'
 " vim2haskell
 Plugin 'dag/vim2hs'
 
+" gist vim
+Plugin 'mattn/webapi-vim' 
+Plugin 'mattn/gist-vim'
+
+" color_coded highlighting plugin
+Plugin 'jeaye/color_coded'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -50,12 +57,18 @@ syntax on
 set number
 set relativenumber
 set scrolloff=4
-set ts=4
-set shiftwidth=4
 set expandtab
+set softtabstop=4
+set shiftwidth=4
 set smarttab
-set autoindent
 set showmatch
-set autochdir
 set incsearch " incremental search
-set background=dark " for readable comments on dark bg
+set tags=tags;
+set showcmd " show the current command in the footer
+
+map <leader>l :set norelativenumber!<CR>
+map <leader>/ :nohlsearch<CR>
+
+" vim-latex
+set grepprg=grep\ -nH\ $*
+let g:tex_flavor='latex'

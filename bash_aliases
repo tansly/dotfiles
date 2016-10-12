@@ -1,11 +1,21 @@
 alias ll='ls -lh'
-alias la='ls -A'
+alias la='ls -ACF'
 alias l='ls -CF'
 alias lla='ls -lhA'
-alias upgrade='sudo aptitude update && sudo aptitude upgrade'
 alias bri='xrandr --output HDMI-0 --brightness'
 alias j="jobs"
+alias transmissiond='transmission-daemon --config-dir ~/.config/transmission/'
+alias volmax='amixer set Master 100%'
+alias volmute='amixer set Master mute'
+alias volunmute='amixer set Master unmute'
+alias less='vimpager'
+alias zless='vimpager'
 
+xlocked()
+{
+    startx &> ~/.startx.log &
+    vlock
+}
 
 # "repeat" command.  Like:
 #
@@ -39,3 +49,5 @@ psgrep()
 {
 	ps -aux | grep $1 | grep -v grep
 }
+
+infos () { info --vi-keys --subnodes -o - "$@" | less; }

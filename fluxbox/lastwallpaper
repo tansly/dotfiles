@@ -1,0 +1,4 @@
+$aspect $full|/home/tansly/.fluxbox/backgrounds/black.png||:0.0
+$aspect $full|/home/tansly/.fluxbox/backgrounds/black.png||:1
+fbsetroot|-foreground #656565 -background #656565 -solid #656565|style|:1.0
+$aspect $full|/home/tansly/.fluxbox/backgrounds/black.png||:0

@@ -1,0 +1,29 @@
+#pcm.analog {
+#        type hw
+#        card 1
+#        device 0 }
+#
+#pcm.digital {
+#        type hw
+#        card 1
+#        device 1 }
+#
+#pcm.hdmi0 {
+#        type hw
+#        card 1
+#        device 3 }
+#
+#pcm.hdmi1 {
+#        type hw
+#        card 1
+#        device 7 }
+#
+#pcm.!default {
+#        type  plug
+#        slave.pcm "analog"
+#}
+#
+
+defaults.pcm.!card 0
+defaults.pcm.!device 3
+defaults.pcm.dmix.rate 44100

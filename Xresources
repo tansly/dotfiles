@@ -5,4 +5,7 @@
 !XTerm.*.font: 9x15
 !XTerm*allowBoldFonts: false
 
-xterm*font: terminus-18
+!xterm*font: -misc-fixed-medium-r-normal--18-120-100-100-c-90-iso10646-1
+xterm*font: -xos4-terminus-medium-r-normal--18-180-72-72-c-100-iso10646-1
+xterm*background: black
+xterm*foreground: white

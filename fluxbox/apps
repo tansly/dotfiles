@@ -1,0 +1,15 @@
+[app] (name=gkrellm) (class=Gkrellm)
+  [Layer]	{4}
+[end]
+
+[app] (name=Mail) (class=Thunderbird) (role=3pane)
+[end]
+
+[app] (name=tilda) (class=Tilda) {1}
+    [Layer] {12}
+    [Hidden] {YES}
+[end]
+
+[app] (name=Xonotic)
+    [Decor] {NONE}
+[end]
