@@ -1,3 +1,3 @@
 xset +fp /usr/share/fonts/terminus
-xrdb -merge ~/.Xresources
+xrdb ~/.Xresources
 ssh-agent -t 3600 startfluxbox

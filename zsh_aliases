@@ -17,6 +17,7 @@ alias volmax='amixer set Master 100%'
 alias volmute='amixer set Master mute'
 alias volunmute='amixer set Master unmute'
 alias less='zless -S'
+alias tmux='tmux -2'
 
 psgrep()
 {

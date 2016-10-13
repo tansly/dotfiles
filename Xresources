@@ -1,11 +1,4 @@
-!XTerm.vt100.font: -*-fixed-terminus-r-normal-*18-*-*-*-*-*-iso10646-1
-!UXTerm.vt100.font: -*-fixed-medium-r-normal-*19-*-*-*-*-*-iso10646-1
-!Xterm*font: fixed
-!Xterm*boldFont: fixed
-!XTerm.*.font: 9x15
-!XTerm*allowBoldFonts: false
-
-!xterm*font: -misc-fixed-medium-r-normal--18-120-100-100-c-90-iso10646-1
 xterm*font: -xos4-terminus-medium-r-normal--18-180-72-72-c-100-iso10646-1
+xterm*allowBoldFonts: yes
 xterm*background: black
 xterm*foreground: white
