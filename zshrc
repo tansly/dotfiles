@@ -23,7 +23,7 @@ sbin2path # defined in .zsh_aliases
 
 # set the prompt
 autoload -Uz colors && colors
-PROMPT="%{$fg_bold[white]%}%n@%m%b %~ %{$fg_bold[blue]%}%#%b "
+PROMPT="%{$fg_bold[white]%}%n@%m%b %~ %{$fg_bold[green]%}%#%b "
 RPROMPT='?:%? j:%j'
 
 # colored gcc output
