@@ -55,8 +55,6 @@ filetype plugin indent on    " required
 syntax on
 
 set number
-set relativenumber
-set scrolloff=4
 set expandtab
 set softtabstop=4
 set shiftwidth=4
@@ -65,6 +63,7 @@ set showmatch
 set incsearch " incremental search
 set tags=tags;
 set showcmd " show the current command in the footer
+set omnifunc=syntaxcomplete#Complete
 
 map <leader>l :set norelativenumber!<CR>
 map <leader>/ :nohlsearch<CR>
