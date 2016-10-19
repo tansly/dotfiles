@@ -67,7 +67,3 @@ set omnifunc=syntaxcomplete#Complete
 
 map <leader>l :set norelativenumber!<CR>
 map <leader>/ :nohlsearch<CR>
-
-" vim-latex
-set grepprg=grep\ -nH\ $*
-let g:tex_flavor='latex'
