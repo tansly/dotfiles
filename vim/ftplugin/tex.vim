@@ -1,4 +1,4 @@
-nmap <F8> :make %:r.dvi
+nmap <F8> :!latex %
 nmap <F9> :!pdflatex %
 
 " comment a line
