@@ -65,5 +65,11 @@ set tags=tags;
 set showcmd " show the current command in the footer
 set omnifunc=syntaxcomplete#Complete
 
-map <leader>l :set norelativenumber!<CR>
+map <leader>rn :set norelativenumber!<CR>
 map <leader>/ :nohlsearch<CR>
+
+" buffer navigation
+set hidden
+map <leader>bl :buffers<CR>
+map <leader>h :bprevious<CR>
+map <leader>l :bnext<CR>
