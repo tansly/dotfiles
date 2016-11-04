@@ -2,3 +2,6 @@
 
 xterm*font: -xos4-terminus-medium-r-normal--18-180-72-72-c-100-iso10646-1
 xterm*allowBoldFonts: yes
+
+# to use the ALT key
+xterm*metaSendsEscape: true
