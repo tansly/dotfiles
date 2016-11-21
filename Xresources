@@ -1,6 +1,6 @@
 #include "/home/tansly/git/flatui-dark/flatui-dark"
 
-xterm*font: -xos4-terminus-medium-r-normal--18-180-72-72-c-100-iso10646-1
+xterm*font: -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
 xterm*allowBoldFonts: yes
 
 ! to use the ALT key
