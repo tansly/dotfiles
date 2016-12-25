@@ -21,7 +21,7 @@ alias tmux='tmux -2'
 
 psgrep()
 {
-	ps -aux | grep $1 | grep -v grep
+    ps up $(pgrep $(echo "$@" | sed '{s/ /|/g}'))
 }
 
 infos () { info --vi-keys --subnodes -o - "$@" | less; }
