@@ -1,4 +1,4 @@
-nmap <F8> :!latex %
+nmap <F8> :!pdflatex %
 nmap <F9> :!pdflatex % && rifle %:r.pdf
 
 " comment a line
