@@ -56,6 +56,8 @@ filetype plugin indent on    " required
 
 syntax on
 
+let mapleader = "\<Space>"
+
 set number
 set expandtab
 set softtabstop=4
