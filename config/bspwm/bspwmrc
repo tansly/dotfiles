@@ -3,6 +3,7 @@
 sxhkd &
 feh --bg-tile ~/.fluxbox/backgrounds/black.png &
 xscreensaver -no-splash &
+dunst &
 
 bspc monitor -d I II III IV V VI VII VIII IX X
 
