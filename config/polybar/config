@@ -151,7 +151,7 @@ label-visible-padding = ${self.label-focused-padding}
 [module/mpd]
 type = internal/mpd
 
-format-online = <icon-prev>   <label-song>   <icon-next> <icon-play> <icon-pause> <icon-random>
+format-online = <icon-prev> <icon-play> <icon-pause> <icon-next>   <label-song>   <icon-random>
 
 label-song-maxlen = 25
 label-song-ellipsis = true
