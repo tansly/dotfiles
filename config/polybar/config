@@ -23,7 +23,7 @@ margin-bottom = 5
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 27
+height = 23
 offset-x = 0
 offset-y = 0
 
@@ -50,8 +50,8 @@ font-1 = unifont:size=6:heavy:fontformat=truetype;-2
 font-2 = siji:pixelsize=10;0
 
 modules-left = bspwm xwindow
-modules-center = 
-modules-right = backlight volume xkeyboard memory cpu battery temperature date powermenu
+modules-center = mpd
+modules-right = volume xkeyboard cpu memory date
 
 tray-position = right
 tray-padding = 2
@@ -225,7 +225,7 @@ ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/eth]
 type = internal/network
-interface = 
+interface = enp3s0
 interval = 3.0
 
 format-connected-underline = #55aa55
