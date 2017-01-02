@@ -45,13 +45,13 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = fixed:pixelsize=10;0
-font-1 = unifont:size=6:heavy:fontformat=truetype;-2
-font-2 = siji:pixelsize=10;0
+font-0 = 7x14
+font-1 = 7x14
+font-2 = 7x14
 
 modules-left = bspwm xwindow
 modules-center = mpd
-modules-right = volume xkeyboard cpu memory date
+modules-right = memory cpu date
 
 tray-position = right
 tray-padding = 2
@@ -151,20 +151,20 @@ label-visible-padding = ${self.label-focused-padding}
 [module/mpd]
 type = internal/mpd
 
-format-online = <label-song>  <icon-prev> <icon-seekb> <icon-stop> <toggle> <icon-seekf> <icon-next>  <icon-repeat> <icon-random>
+format-online = <icon-prev>   <label-song>   <icon-next> <icon-play> <icon-pause> <icon-random>
 
 label-song-maxlen = 25
 label-song-ellipsis = true
 
-icon-prev = 
+icon-prev = prev
 icon-seekb = 
 icon-stop = 
-icon-play = 
-icon-pause = 
-icon-next = 
+icon-play = play
+icon-pause = pause
+icon-next = next
 icon-seekf = 
 
-icon-random = 
+icon-random = random
 icon-repeat = 
 
 toggle-on-foreground = ${colors.primary}
