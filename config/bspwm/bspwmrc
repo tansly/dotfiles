@@ -1,7 +1,7 @@
 #! /bin/sh
 
 sxhkd &
-feh --bg-tile ~/.fluxbox/backgrounds/black.png &
+feh --bg-fill ~/Pictures/wallpaper
 xscreensaver -no-splash &
 dunst &
 polybar example &
