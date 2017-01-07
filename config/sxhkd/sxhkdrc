@@ -2,6 +2,29 @@
 # wm independent hotkeys
 #
 
+# quick launch
+super + KP_End
+        firefox
+
+super + KP_Down
+        thunderbird
+
+# mpd control
+ctrl + KP_Left
+        mpc prev && notify-send -t 3 -u low "$(mpc current)"
+ctrl + KP_Begin
+        mpc toggle && notify-send -t 3 -u low "$(mpc current)"
+ctrl + KP_Right
+        mpc next && notify-send -t 3 -u low "$(mpc current)"
+ctrl + KP_End
+        notify-send -t 3 -u low "$(mpc)"
+
+# alsa control
+ctrl + KP_Up
+        amixer -c 0 set PCM 5%+
+ctrl + KP_Down
+        amixer -c 0 set PCM 5%-
+
 # terminal emulator
 super + Return
 	xterm
@@ -16,7 +39,7 @@ super + Escape
 
 # lock screen
 ctrl + alt + l
-        xscreensaver-command -activate
+	xscreensaver-command -activate
 
 #
 # bspwm hotkeys
