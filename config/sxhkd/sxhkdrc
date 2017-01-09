@@ -39,7 +39,7 @@ super + Escape
 
 # lock screen
 ctrl + alt + l
-	xscreensaver-command -activate
+	lockscreen # custom script to set lockscreen image
 
 #
 # bspwm hotkeys
