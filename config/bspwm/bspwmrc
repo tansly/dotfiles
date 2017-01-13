@@ -5,7 +5,6 @@ feh --bg-fill ~/Pictures/wallpaper
 xscreensaver -no-splash &
 dunst &
 polybar example &
-#an2linuxserver & # android notifications to desktop (https://github.com/rootkiwi/an2linuxserver)
 
 bspc monitor -d I II III IV V VI VII VIII IX X
 
@@ -17,3 +16,5 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
 bspc config click_to_focus true
+
+bspc rule -a feh state=floating
