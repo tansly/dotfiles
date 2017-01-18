@@ -128,5 +128,3 @@ PS1='\u@\h:\w\$ '
 export EDITOR=vim
 
 #export PAGER=vimmanpager
-
-export CFLAGS=" -Wall -ggdb "

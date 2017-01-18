@@ -44,9 +44,6 @@ fi
 
 export EDITOR=vim
 
-export CFLAGS=" -Wall -ggdb "
-export CXXFLAGS="$CFLAGS"
-
 # first word search in history
 bindkey '^[[A' up-line-or-search
 bindkey '^[[B' down-line-or-search
