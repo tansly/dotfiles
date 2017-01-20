@@ -51,7 +51,7 @@ font-2 = 7x14
 
 modules-left = bspwm xwindow
 modules-center = mpd
-modules-right = xkeyboard memory cpu date
+modules-right = xkeyboard memory cpu sysload sysup date
 
 tray-position = right
 tray-padding = 2
@@ -354,5 +354,15 @@ menu-2-0 = power off
 menu-2-0-exec = sudo poweroff
 menu-2-1 = cancel
 menu-2-1-exec = menu-open-0
+
+[module/sysload]
+type = custom/script
+exec = sysload
+interval = 2
+
+[module/sysup]
+type = custom/script
+exec = sysup
+interval = 60
 
 ; vim:ft=dosini
