@@ -1,4 +1,4 @@
-#include "/home/tansly/git/flatui-dark/flatui-dark"
+#include "/home/tansly/src/flatui-dark/flatui-dark"
 
 xterm*font: -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
 xterm*allowBoldFonts: yes
