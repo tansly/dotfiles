@@ -68,6 +68,8 @@ set incsearch " incremental search
 set tags=tags;
 set showcmd " show the current command in the footer
 set omnifunc=syntaxcomplete#Complete
+set ignorecase
+set smartcase
 
 map <leader>rn :set norelativenumber!<CR>
 map <leader>/ :nohlsearch<CR>
