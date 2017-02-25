@@ -27,8 +27,10 @@ Plugin 'VundleVim/Vundle.vim'
 " different version somewhere else.
 "Plugin 'ascenator/L9', {'name': 'newL9'}
 
-" vim2haskell
+" plugins for haskell
 Plugin 'dag/vim2hs'
+"Plugin 'neovimhaskell/haskell-vim'
+
 
 " gist vim
 Plugin 'mattn/webapi-vim' 
@@ -62,14 +64,17 @@ set number
 set expandtab
 set softtabstop=4
 set shiftwidth=4
+set autoindent
+set smartindent
 set smarttab
 set showmatch
-set incsearch " incremental search
+set incsearch
 set tags=tags;
-set showcmd " show the current command in the footer
+set showcmd
 set omnifunc=syntaxcomplete#Complete
 set ignorecase
 set smartcase
+set wildmenu
 
 map <leader>rn :set norelativenumber!<CR>
 map <leader>/ :nohlsearch<CR>
@@ -79,3 +84,6 @@ set hidden
 map <leader>bl :buffers<CR>
 map <leader>h :bprevious<CR>
 map <leader>l :bnext<CR>
+
+set background=dark
+colorscheme solarized

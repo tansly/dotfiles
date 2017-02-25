@@ -1,1 +1,1 @@
-nmap<F8> :w <Bar> !ghci %
+nmap<F8> :!ghci %
