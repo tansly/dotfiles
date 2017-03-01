@@ -76,12 +76,12 @@ set ignorecase
 set smartcase
 set wildmenu
 
-map <leader>rn :set norelativenumber!<CR>
+map <leader>R :set norelativenumber!<CR>
 map <leader>/ :nohlsearch<CR>
 
 " buffer navigation
 set hidden
-map <leader>bl :buffers<CR>
+map <leader>B :buffers<CR>
 map <leader>h :bprevious<CR>
 map <leader>l :bnext<CR>
 
