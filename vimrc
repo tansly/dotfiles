@@ -75,6 +75,7 @@ set omnifunc=syntaxcomplete#Complete
 set ignorecase
 set smartcase
 set wildmenu
+set cursorline
 
 map <leader>R :set norelativenumber!<CR>
 map <leader>/ :nohlsearch<CR>
