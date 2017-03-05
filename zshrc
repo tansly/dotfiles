@@ -49,3 +49,5 @@ bindkey '^[[A' up-line-or-search
 bindkey '^[[B' down-line-or-search
 
 setopt interactivecomments
+
+source $HOME/src/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
