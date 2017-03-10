@@ -84,7 +84,7 @@ map <leader>/ :nohlsearch<CR>
 
 " buffer navigation
 set hidden
-map <leader>B :buffers<CR>
+map <leader>b :buffers<CR>
 map <leader>h :bprevious<CR>
 map <leader>l :bnext<CR>
 
