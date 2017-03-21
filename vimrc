@@ -40,6 +40,8 @@ Plugin 'mattn/gist-vim'
 Plugin 'jeaye/color_coded'
 
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-repeat'
 
 Plugin 'godlygeek/tabular'
 
@@ -78,6 +80,7 @@ set ignorecase
 set smartcase
 set wildmenu
 set cursorline
+set relativenumber
 
 map <leader>R :set norelativenumber!<CR>
 map <leader>/ :nohlsearch<CR>
