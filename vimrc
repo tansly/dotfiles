@@ -77,6 +77,8 @@ set wildmenu
 set cursorline
 set relativenumber
 
+inoremap jj <Esc>
+
 map <leader>R :set norelativenumber!<CR>
 map <leader>/ :nohlsearch<CR>
 
