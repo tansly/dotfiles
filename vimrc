@@ -76,6 +76,10 @@ set smartcase
 set wildmenu
 set cursorline
 set relativenumber
+set undofile
+set undolevels=1000
+set undodir=~/.vim/undo/
+set undoreload=10000
 
 inoremap jj <Esc>
 
