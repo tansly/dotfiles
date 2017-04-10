@@ -27,11 +27,6 @@ Plugin 'VundleVim/Vundle.vim'
 " different version somewhere else.
 "Plugin 'ascenator/L9', {'name': 'newL9'}
 
-" plugins for haskell
-Plugin 'dag/vim2hs'
-"Plugin 'neovimhaskell/haskell-vim'
-
-
 " gist vim
 Plugin 'mattn/webapi-vim' 
 Plugin 'mattn/gist-vim'
