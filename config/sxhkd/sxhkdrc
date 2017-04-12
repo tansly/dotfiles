@@ -9,6 +9,9 @@ super + KP_End
 super + KP_Down
         thunderbird
 
+super + KP_Next
+        chromium
+
 # mpd control
 ctrl + KP_Left
         mpc prev && notify-send -t 3 -u low "$(mpc current)"
