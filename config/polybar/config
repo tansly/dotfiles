@@ -51,7 +51,7 @@ font-2 = 7x14
 
 modules-left = bspwm xwindow
 modules-center = mpd
-modules-right = xkeyboard memory cpu sysload sysup date
+modules-right = xkeyboard cpu memory sysload sysup date
 
 tray-position = right
 tray-padding = 2
