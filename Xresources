@@ -1,7 +1,11 @@
-#include "/home/tansly/src/flatui-dark/flatui-dark"
+#include "/home/tansly/src/solarized/xresources/solarized"
 
 xterm*font: -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
 xterm*allowBoldFonts: yes
 
 ! to use the ALT key
 xterm*metaSendsEscape: true
+
+URxvt.intensityStyles: false
+URxvt.font: -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
+URxvt.boldFont: -xos4-terminus-bold-r-normal--16-160-72-72-c-80-iso10646-1
