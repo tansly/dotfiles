@@ -80,6 +80,7 @@ set undofile
 set undolevels=1000
 set undodir=~/.vim/undo/
 set undoreload=10000
+set mouse=a
 
 inoremap jj <Esc>
 
