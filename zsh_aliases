@@ -9,15 +9,11 @@ alias ll='ls -lh'
 alias la='ls -ACF'
 alias l='ls -CF'
 alias lla='ls -lhA'
-alias bri='xrandr --output HDMI2 --brightness'
 alias j="jobs"
-alias transmissiond='/usr/bin/transmission-daemon --config-dir ~/.config/transmission/'
-alias transmission-daemon='echo "DO NOT USE THIS"'
-alias volmax='amixer set Master 100%'
-alias volmute='amixer set Master mute'
-alias volunmute='amixer set Master unmute'
 alias less='zless -S'
 alias tmux='tmux -2'
+alias wttr='curl wttr.in/Ankara'
+alias myip='curl -4 icanhazip.com'
 
 psgrep()
 {
