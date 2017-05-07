@@ -9,3 +9,4 @@ xterm*metaSendsEscape: true
 URxvt.intensityStyles: false
 URxvt.font: -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
 URxvt.boldFont: -xos4-terminus-bold-r-normal--16-160-72-72-c-80-iso10646-1
+URxvt.saveLines: 65535
