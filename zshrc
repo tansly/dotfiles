@@ -40,8 +40,6 @@ if [ -d "$HOME/local/share/man" ] ; then
     MANPATH="$HOME/local/share/man:$(manpath 2>/dev/null)"
 fi
 
-export LD_LIBRARY_PATH="$HOME/local/lib"
-
 export EDITOR=vim
 
 # first word search in history
