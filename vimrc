@@ -81,6 +81,7 @@ set undolevels=1000
 set undodir=~/.vim/undo/
 set undoreload=10000
 set mouse=a
+set colorcolumn=80
 
 inoremap jj <Esc>
 
@@ -95,3 +96,5 @@ map <leader>l :bnext<CR>
 
 set background=dark
 colorscheme solarized
+
+let g:syntastic_cpp_compiler_options = ' -std=c++11'
