@@ -27,3 +27,8 @@ sbin2path()
     OLDPATH="$PATH"
     PATH="/usr/local/sbin:/usr/sbin:/sbin:$PATH"
 }
+
+mpcyt()
+{
+    mpc add $(youtube-dl -g -f140 "$@")
+}
