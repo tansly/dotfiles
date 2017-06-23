@@ -7,6 +7,6 @@ xterm*allowBoldFonts: yes
 xterm*metaSendsEscape: true
 
 URxvt.intensityStyles: false
-URxvt.font: -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
-URxvt.boldFont: -xos4-terminus-bold-r-normal--16-160-72-72-c-80-iso10646-1
+URxvt.font: xft:Inconsolata:style=Regular:size=12
+URxvt.boldFont: xft:Inconsolata:style=Bold:size=12
 URxvt.saveLines: 65535
