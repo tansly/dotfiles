@@ -98,3 +98,8 @@ set background=dark
 colorscheme solarized
 
 let g:syntastic_cpp_compiler_options = ' -std=c++11'
+
+autocmd BufRead,BufNewFile */src/linux*/* silent let g:color_coded_enabled = 0
+autocmd BufRead,BufNewFile */src/linux*/* set noexpandtab
+autocmd BufRead,BufNewFile */src/linux*/* set tabstop=8
+autocmd BufRead,BufNewFile */src/linux*/* set shiftwidth=8
