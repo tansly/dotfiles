@@ -102,6 +102,7 @@ set background=dark
 colorscheme solarized
 
 let g:syntastic_cpp_compiler_options = ' -std=c++11'
+let g:syntastic_python_checkers=['python']
 
 autocmd BufRead,BufNewFile */src/linux*/* silent let g:color_coded_enabled = 0
 autocmd BufRead,BufNewFile */src/linux*/* set noexpandtab
