@@ -86,6 +86,7 @@ set undodir=~/.vim/undo/
 set undoreload=10000
 set mouse=a
 set colorcolumn=80
+set nohlsearch
 
 inoremap jj <Esc>
 
