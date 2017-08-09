@@ -86,6 +86,9 @@ set undodir=~/.vim/undo/
 set undoreload=10000
 set mouse=a
 set colorcolumn=80
+set nowrap
+set backspace=indent,start
+set ruler
 set nohlsearch
 
 inoremap jj <Esc>
@@ -101,6 +104,7 @@ map <leader>l :bnext<CR>
 
 set background=dark
 colorscheme solarized
+call togglebg#map("<F5>")
 
 let g:syntastic_cpp_compiler_options = ' -std=c++11'
 let g:syntastic_python_checkers=['python']
