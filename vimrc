@@ -93,7 +93,7 @@ set nohlsearch
 
 inoremap jj <Esc>
 
-map <leader>R :set norelativenumber!<CR>
+map <leader>r :set norelativenumber!<CR>
 map <leader>/ :nohlsearch<CR>
 
 " buffer navigation
@@ -113,3 +113,7 @@ autocmd BufRead,BufNewFile */src/linux*/* silent let g:color_coded_enabled = 0
 autocmd BufRead,BufNewFile */src/linux*/* set noexpandtab
 autocmd BufRead,BufNewFile */src/linux*/* set tabstop=8
 autocmd BufRead,BufNewFile */src/linux*/* set shiftwidth=8
+
+if &diff
+    set norelativenumber
+endif
