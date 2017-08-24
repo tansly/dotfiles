@@ -72,7 +72,7 @@ set smartindent
 set smarttab
 set showmatch
 set incsearch
-set tags=tags;
+set tags=./tags;
 set showcmd
 set omnifunc=syntaxcomplete#Complete
 set ignorecase
