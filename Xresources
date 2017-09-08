@@ -7,8 +7,8 @@ xterm*allowBoldFonts: yes
 xterm*metaSendsEscape: true
 
 URxvt.intensityStyles: false
-URxvt.font: xft:Inconsolata:style=Regular:size=15
-URxvt.boldFont: xft:Inconsolata:style=Bold:size=15
+URxvt.font: xft:Inconsolata:style=Regular:size=13
+URxvt.boldFont: xft:Inconsolata:style=Bold:size=13
 URxvt.saveLines: 65535
 URxvt.scrollBar: false
 URxvt.geometry: 90x27
