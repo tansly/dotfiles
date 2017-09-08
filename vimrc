@@ -102,6 +102,7 @@ map <leader>b :buffers<CR>
 map <leader>h :bprevious<CR>
 map <leader>l :bnext<CR>
 
+let g:solarized_italic=0
 set background=dark
 colorscheme solarized
 call togglebg#map("<F5>")
