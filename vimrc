@@ -112,7 +112,6 @@ call togglebg#map("<F5>")
 let g:syntastic_cpp_compiler_options = ' -std=c++11'
 let g:syntastic_python_checkers=['python']
 
-let g:clang_library_path='/usr/lib/llvm-3.9/lib/libclang.so.1'
 let g:clang_complete_auto=0
 let g:clang_close_preview=1
 
