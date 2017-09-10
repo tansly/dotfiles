@@ -34,6 +34,8 @@ Plugin 'mattn/gist-vim'
 " color_coded highlighting plugin
 Plugin 'jeaye/color_coded'
 
+Plugin 'Rip-Rip/clang_complete'
+
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
@@ -110,7 +112,11 @@ call togglebg#map("<F5>")
 let g:syntastic_cpp_compiler_options = ' -std=c++11'
 let g:syntastic_python_checkers=['python']
 
-autocmd BufRead,BufNewFile */src/linux*/* silent let g:color_coded_enabled = 0
+let g:clang_library_path='/usr/lib/llvm-3.9/lib/libclang.so.1'
+let g:clang_complete_auto=0
+let g:clang_close_preview=1
+
+autocmd BufRead,BufNewFile */src/linux*/* silent let g:color_coded_enabled=0
 autocmd BufRead,BufNewFile */src/linux*/* set noexpandtab
 autocmd BufRead,BufNewFile */src/linux*/* set tabstop=8
 autocmd BufRead,BufNewFile */src/linux*/* set shiftwidth=8
