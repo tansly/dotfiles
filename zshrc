@@ -14,6 +14,9 @@ compinit
 
 umask 027
 
+setopt interactivecomments
+setopt extendedglob
+
 if [ -f ~/.zsh_aliases ]; then
     . ~/.zsh_aliases
 fi
@@ -46,6 +49,6 @@ export EDITOR=vim
 bindkey '^[[A' up-line-or-search
 bindkey '^[[B' down-line-or-search
 
-setopt interactivecomments
-
 source $HOME/src/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+eval $(keychain --eval --quiet --agents ssh,gpg)
