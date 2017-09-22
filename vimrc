@@ -109,7 +109,6 @@ set background=dark
 colorscheme solarized
 call togglebg#map("<F5>")
 
-let g:syntastic_cpp_compiler_options = ' -std=c++11'
 let g:syntastic_python_checkers=['python']
 
 let g:clang_complete_auto=0
