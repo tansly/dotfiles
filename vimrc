@@ -31,7 +31,6 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'mattn/webapi-vim' 
 Plugin 'mattn/gist-vim'
 
-" color_coded highlighting plugin
 Plugin 'jeaye/color_coded'
 
 Plugin 'Rip-Rip/clang_complete'
@@ -104,10 +103,15 @@ map <leader>b :buffers<CR>
 map <leader>h :bprevious<CR>
 map <leader>l :bnext<CR>
 
-let g:solarized_italic=0
+" colors
 set background=dark
-colorscheme solarized
-call togglebg#map("<F5>")
+if &term == "rxvt-unicode-256color" || has("gui_running")
+    let g:solarized_italic=0
+    colorscheme solarized
+    call togglebg#map("<F5>")
+else
+    colorscheme default
+endif
 
 let g:syntastic_python_checkers=['python']
 
