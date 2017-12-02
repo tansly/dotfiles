@@ -13,7 +13,7 @@ alias j="jobs"
 alias less='zless -S'
 alias tmux='tmux -2'
 alias wttr='curl wttr.in/Ankara'
-alias myip='curl -4 icanhazip.com'
+alias myip='curl -4 https://icanhazip.com'
 
 psgrep()
 {
