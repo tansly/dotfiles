@@ -104,16 +104,9 @@ map <leader>h :bprevious<CR>
 map <leader>l :bnext<CR>
 
 set background=dark
-if &term == "rxvt-unicode-256color" || has("gui_running")
-    let g:solarized_italic=0
-    colorscheme solarized
-    call togglebg#map("<F5>")
-else
-    colorscheme default
-    " cursorline and colorcolumn look distracting on most terminals
-    set nocursorline
-    set colorcolumn=0
-endif
+let g:solarized_italic=0
+colorscheme solarized
+call togglebg#map("<F5>")
 
 let g:syntastic_python_checkers=['python']
 
