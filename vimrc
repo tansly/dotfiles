@@ -31,7 +31,6 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'mattn/webapi-vim' 
 Plugin 'mattn/gist-vim'
 
-" color_coded highlighting plugin
 Plugin 'jeaye/color_coded'
 
 Plugin 'Rip-Rip/clang_complete'
@@ -105,12 +104,11 @@ map <leader>h :bprevious<CR>
 map <leader>l :bnext<CR>
 map <leader>L :b#<CR>
 
-let g:solarized_italic=0
 set background=dark
+let g:solarized_italic=0
 colorscheme solarized
 call togglebg#map("<F5>")
 
-let g:syntastic_cpp_compiler_options = ' -std=c++11'
 let g:syntastic_python_checkers=['python']
 
 let g:clang_library_path='/usr/lib/llvm-3.9/lib/libclang-3.9.so.1'
