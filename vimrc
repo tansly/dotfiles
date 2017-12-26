@@ -102,6 +102,7 @@ set hidden
 map <leader>b :buffers<CR>
 map <leader>h :bprevious<CR>
 map <leader>l :bnext<CR>
+map <leader>L :b#<CR>
 
 set background=dark
 let g:solarized_italic=0
