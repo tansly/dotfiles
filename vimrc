@@ -80,7 +80,7 @@ set ignorecase
 set smartcase
 set wildmenu
 set cursorline
-set relativenumber
+"set relativenumber
 set undofile
 set undolevels=1000
 set undodir=~/.vim/undo/
@@ -91,6 +91,7 @@ set nowrap
 set backspace=indent,start
 set ruler
 set nohlsearch
+set completeopt-=preview
 
 inoremap jj <Esc>
 
@@ -113,6 +114,7 @@ let g:syntastic_python_checkers=['python']
 
 let g:clang_complete_auto=0
 let g:clang_close_preview=1
+let g:clang_library_path='/usr/lib64/libclang.so'
 
 autocmd BufRead,BufNewFile */src/linux*/* silent let g:color_coded_enabled=0
 autocmd BufRead,BufNewFile */src/linux*/* set noexpandtab

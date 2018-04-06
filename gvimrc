@@ -1,4 +1,4 @@
-set guifont=Inconsolata\ Medium\ 16
+set guifont=Inconsolata\ Regular\ 16
 
 set guioptions-=m  "remove menu bar
 set guioptions-=T  "remove toolbar

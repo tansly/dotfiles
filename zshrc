@@ -21,8 +21,6 @@ if [ -f ~/.zsh_aliases ]; then
     . ~/.zsh_aliases
 fi
 
-sbin2path # defined in .zsh_aliases
-
 # set the prompt
 autoload -Uz colors && colors
 PROMPT="%{$fg_bold[white]%}%n@%m%b %~ %{$fg_bold[green]%}%#%b "
@@ -51,4 +49,4 @@ bindkey '^[[B' down-line-or-search
 
 source $HOME/src/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-eval $(keychain --eval --quiet --agents ssh,gpg)
+eval $(keychain --eval --quiet --agents ssh)
