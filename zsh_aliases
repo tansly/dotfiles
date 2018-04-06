@@ -6,14 +6,15 @@ alias egrep='egrep --color=auto'
 alias ls='ls --color=auto'
 
 alias ll='ls -lh'
+alias llz='ls -lZh'
 alias la='ls -ACF'
 alias l='ls -CF'
 alias lla='ls -lhA'
 alias j="jobs"
 alias less='zless -S'
 alias tmux='tmux -2'
-alias wttr='curl wttr.in/Ankara'
-alias myip='curl -4 icanhazip.com'
+alias wttr='curl -4 wttr.in/Ankara'
+alias myip='curl -4 https://icanhazip.com'
 
 psgrep()
 {

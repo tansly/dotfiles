@@ -80,7 +80,7 @@ set ignorecase
 set smartcase
 set wildmenu
 set cursorline
-set relativenumber
+"set relativenumber
 set undofile
 set undolevels=1000
 set undodir=~/.vim/undo/
@@ -91,6 +91,7 @@ set nowrap
 set backspace=indent,start
 set ruler
 set nohlsearch
+set completeopt-=preview
 
 inoremap jj <Esc>
 
