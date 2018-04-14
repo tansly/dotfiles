@@ -91,7 +91,7 @@ set nowrap
 set backspace=indent,start
 set ruler
 set nohlsearch
-set completeopt-=preview
+set completeopt=menu,menuone,longest
 
 inoremap jj <Esc>
 
