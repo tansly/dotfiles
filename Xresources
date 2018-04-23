@@ -11,3 +11,4 @@ URxvt.font: xft:Inconsolata:style=Medium:size=13
 URxvt.saveLines: 65535
 URxvt.scrollBar: false
 URxvt.geometry: 90x27
+URxvt.perl-ext-common: confirm-paste
