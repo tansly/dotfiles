@@ -38,6 +38,7 @@ Plugin 'Rip-Rip/clang_complete'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-commentary'
 
 Plugin 'godlygeek/tabular'
 
