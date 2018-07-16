@@ -81,7 +81,6 @@ set ignorecase
 set smartcase
 set wildmenu
 set cursorline
-"set relativenumber
 set undofile
 set undolevels=1000
 set undodir=~/.vim/undo/
@@ -125,3 +124,13 @@ autocmd BufRead,BufNewFile */src/linux*/* set shiftwidth=8
 if &diff
     set norelativenumber
 endif
+
+let g:color_coded_enabled=0
+
+let g:netrw_liststyle=3
+let g:netrw_banner=0
+let g:netrw_browse_split=4
+let g:netrw_winsize=25
+
+let g:syntastic_cpp_compiler_options='-std=c++17'
+let g:syntastic_mode_map = { "mode": "passive", "active_filetypes": [], "passive_filetypes": [] }
