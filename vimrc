@@ -133,4 +133,4 @@ let g:netrw_browse_split=4
 let g:netrw_winsize=25
 
 let g:syntastic_cpp_compiler_options='-std=c++17'
-let g:syntastic_mode_map = { "mode": "passive", "active_filetypes": [], "passive_filetypes": [] }
+let g:syntastic_mode_map = { "mode": "passive", "active_filetypes": ["java"], "passive_filetypes": [] }
