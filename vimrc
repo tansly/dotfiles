@@ -33,8 +33,6 @@ Plugin 'mattn/gist-vim'
 
 Plugin 'jeaye/color_coded'
 
-Plugin 'Rip-Rip/clang_complete'
-
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
@@ -76,7 +74,6 @@ set showmatch
 set incsearch
 set tags=./tags;
 set showcmd
-set omnifunc=syntaxcomplete#Complete
 set ignorecase
 set smartcase
 set wildmenu
@@ -110,12 +107,6 @@ let g:solarized_italic=0
 colorscheme solarized
 call togglebg#map("<F5>")
 
-let g:syntastic_python_checkers=['python']
-
-let g:clang_complete_auto=0
-let g:clang_close_preview=1
-let g:clang_library_path='/usr/lib64/libclang.so'
-
 autocmd BufRead,BufNewFile */src/linux*/* silent let g:color_coded_enabled=0
 autocmd BufRead,BufNewFile */src/linux*/* set noexpandtab
 autocmd BufRead,BufNewFile */src/linux*/* set tabstop=8
@@ -133,4 +124,10 @@ let g:netrw_browse_split=4
 let g:netrw_winsize=25
 
 let g:syntastic_cpp_compiler_options='-std=c++17'
-let g:syntastic_mode_map = { "mode": "passive", "active_filetypes": ["java"], "passive_filetypes": [] }
+let g:syntastic_mode_map = { "mode": "passive", "active_filetypes": ["java", "python"], "passive_filetypes": [] }
+let g:syntastic_python_checkers=['python']
+
+let g:LanguageClient_serverCommands = {
+    \ 'c': ['clangd'],
+    \ 'cpp': ['clangd'],
+    \ }
