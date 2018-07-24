@@ -44,6 +44,8 @@ Plugin 'altercation/vim-colors-solarized'
 
 Plugin 'vim-syntastic/syntastic'
 
+Plugin 'autozimu/LanguageClient-neovim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
