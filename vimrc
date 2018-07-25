@@ -132,4 +132,5 @@ let g:syntastic_python_checkers=['python']
 let g:LanguageClient_serverCommands = {
     \ 'c': ['clangd'],
     \ 'cpp': ['clangd'],
+    \ 'java': ['~/bin/eclipse_jdt_ls'],
     \ }
