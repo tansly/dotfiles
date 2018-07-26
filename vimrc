@@ -126,7 +126,7 @@ let g:netrw_browse_split=4
 let g:netrw_winsize=25
 
 let g:syntastic_cpp_compiler_options='-std=c++17'
-let g:syntastic_mode_map = { "mode": "passive", "active_filetypes": ["java", "python"], "passive_filetypes": [] }
+let g:syntastic_mode_map = { "mode": "passive", "active_filetypes": ["python"], "passive_filetypes": [] }
 let g:syntastic_python_checkers=['python']
 
 let g:LanguageClient_serverCommands = {
@@ -134,3 +134,5 @@ let g:LanguageClient_serverCommands = {
     \ 'cpp': ['clangd'],
     \ 'java': ['~/bin/eclipse_jdt_ls'],
     \ }
+
+let g:LanguageClient_autoStart=0
