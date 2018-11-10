@@ -73,7 +73,7 @@ set cursorline
 set undofile
 set undolevels=1000
 set undoreload=10000
-set mouse=a
+"set mouse=a
 set colorcolumn=80
 set nowrap
 set backspace=indent,start
@@ -115,6 +115,7 @@ let g:LanguageClient_serverCommands = {
     \ 'c': ['clangd'],
     \ 'cpp': ['clangd'],
     \ 'java': ['~/bin/eclipse_jdt_ls'],
+    \ 'javascript': ['node', '~/src/javascript-typescript-langserver/lib/language-server-stdio'],
     \ }
 
 let g:LanguageClient_autoStart=0
