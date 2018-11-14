@@ -1,15 +1,17 @@
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=65535
+SAVEHIST=65535
+setopt extended_history
+setopt share_history
+setopt hist_verify
+
 bindkey -e
-# End of lines configured by zsh-newuser-install
-# The following lines were added by compinstall
+
 zstyle :compinstall filename '/home/tansly/.zshrc'
 
 autoload -Uz compinit
 compinit
-# End of lines added by compinstall
 #############################################################
 
 umask 027
@@ -37,11 +39,17 @@ if [ -d "$HOME/local/bin" ] ; then
     PATH="$HOME/local/bin:$PATH"
 fi
 
+if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$HOME/.local/bin:$PATH"
+fi
+
 if [ -d "$HOME/local/share/man" ] ; then
     MANPATH="$HOME/local/share/man:$(manpath 2>/dev/null)"
 fi
 
 export EDITOR=vim
+
+export MANPAGER="nvim -c 'set ft=man' -"
 
 # first word search in history
 bindkey '^[[A' up-line-or-search
