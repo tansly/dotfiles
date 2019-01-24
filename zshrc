@@ -25,7 +25,7 @@ fi
 
 # set the prompt
 autoload -Uz colors && colors
-PROMPT="%{$fg_bold[white]%}%n@%m%b %~ %{$fg_bold[green]%}%#%b "
+PROMPT="%40<...<%~%<< %{$fg_bold[green]%}%#%b "
 RPROMPT='?:%? j:%j'
 
 # colored gcc output
