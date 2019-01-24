@@ -56,3 +56,6 @@ bindkey '^[[A' up-line-or-search
 bindkey '^[[B' down-line-or-search
 
 source $HOME/src/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+/usr/bin/keychain --quiet ~/.ssh/id_rsa
+. ~/.keychain/valhalla.void.web.tr-sh
