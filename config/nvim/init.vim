@@ -129,7 +129,7 @@ let g:LanguageClient_serverCommands = {
     \ 'c': ['clangd'],
     \ 'cpp': ['clangd'],
     \ 'java': ['~/bin/eclipse_jdt_ls'],
-    \ 'javascript': ['node', '~/src/javascript-typescript-langserver/lib/language-server-stdio'],
+    \ 'javascript': ['node', '~/src/javascript-typescript-langserver/lib/language-server-stdio.js'],
     \ }
 
 let g:LanguageClient_autoStart=0
