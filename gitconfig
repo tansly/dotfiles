@@ -1,0 +1,14 @@
+[github]
+	user = tansly
+[user]
+	email = yagmur.oymak@gmail.com
+	name = Yağmur Oymak
+	signingkey = FBE6158C196A82D5FED1656BBB3EA9D4E90CD64F
+[push]
+	default = simple
+[diff]
+	tool = vimdiff
+[merge]
+	tool = vimdiff
+[gpg]
+	program = gpg2
