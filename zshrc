@@ -25,7 +25,7 @@ fi
 
 # set the prompt
 autoload -Uz colors && colors
-PROMPT="%40<...<%~%<< %{$fg_bold[green]%}%#%b "
+PROMPT="%40<...<%~%<< %{$fg_bold[red]%}%#%b "
 RPROMPT='?:%? j:%j'
 
 # colored gcc output
@@ -47,7 +47,7 @@ if [ -d "$HOME/local/share/man" ] ; then
     MANPATH="$HOME/local/share/man:$(manpath 2>/dev/null)"
 fi
 
-export EDITOR=vim
+export EDITOR=nvim
 
 export MANPAGER="nvim -c 'set ft=man' -"
 
@@ -56,6 +56,3 @@ bindkey '^[[A' up-line-or-search
 bindkey '^[[B' down-line-or-search
 
 source $HOME/src/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-/usr/bin/keychain --quiet ~/.ssh/id_rsa
-. ~/.keychain/valhalla.void.web.tr-sh
