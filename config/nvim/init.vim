@@ -80,6 +80,7 @@ set backspace=indent,start
 set ruler
 set nohlsearch
 set completeopt=menu,menuone,longest
+set diffopt=vertical
 
 inoremap jj <Esc>
 
