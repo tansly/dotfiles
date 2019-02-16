@@ -12,8 +12,9 @@ alias l='ls -CF'
 alias lla='ls -lhA'
 alias j="jobs"
 alias less='zless -S'
-alias wttr='curl -4 wttr.in/Ankara'
-alias myip='curl -4 https://icanhazip.com'
+alias wttr='curl https://wttr.in/Ankara'
+alias myip4='curl -4 https://icanhazip.com'
+alias myip6='curl -6 https://icanhazip.com'
 alias vi='nvim'
 alias vim='nvim'
 
