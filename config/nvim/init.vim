@@ -50,6 +50,8 @@ Plug 'vim-syntastic/syntastic'
 
 Plug 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.sh' }
 
+Plug 'rightson/vim-p4-syntax'
+
 " Initialize plugin system
 call plug#end()
 
@@ -108,7 +110,7 @@ nnoremap <A-k> <C-w>k
 nnoremap <A-l> <C-w>l
 tnoremap <Esc><Esc> <C-\><C-n>
 
-set background=dark
+set background=light
 let g:solarized_italic=0
 colorscheme solarized
 call togglebg#map("<F5>")
