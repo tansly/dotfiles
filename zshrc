@@ -55,4 +55,4 @@ export MANPAGER="nvim -c 'set ft=man' -"
 bindkey '^[[A' up-line-or-search
 bindkey '^[[B' down-line-or-search
 
-source $HOME/src/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
