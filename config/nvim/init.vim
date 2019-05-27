@@ -83,6 +83,7 @@ set ruler
 set nohlsearch
 set completeopt=menu,menuone,longest
 set diffopt=vertical
+set relativenumber
 
 inoremap jj <Esc>
 
