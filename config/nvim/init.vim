@@ -84,6 +84,7 @@ set nohlsearch
 set completeopt=menu,menuone,longest
 set diffopt=vertical
 set relativenumber
+set nomodeline
 
 inoremap jj <Esc>
 
