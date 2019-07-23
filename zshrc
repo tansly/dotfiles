@@ -35,22 +35,6 @@ eval $(dircolors)
 # colorized completion
 zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 
-if [ -d "$HOME/local/bin" ] ; then
-    PATH="$HOME/local/bin:$PATH"
-fi
-
-if [ -d "$HOME/.local/bin" ] ; then
-    PATH="$HOME/.local/bin:$PATH"
-fi
-
-if [ -d "$HOME/local/share/man" ] ; then
-    MANPATH="$HOME/local/share/man:$(manpath 2>/dev/null)"
-fi
-
-export EDITOR=nvim
-
-export MANPAGER="nvim -c 'set ft=man' -"
-
 # first word search in history
 bindkey '^[[A' up-line-or-search
 bindkey '^[[B' down-line-or-search
