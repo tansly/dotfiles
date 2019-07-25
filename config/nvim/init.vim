@@ -52,6 +52,8 @@ Plug 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.s
 
 Plug 'rightson/vim-p4-syntax'
 
+Plug 'junegunn/fzf.vim'
+
 " Initialize plugin system
 call plug#end()
 
@@ -135,6 +137,7 @@ let g:LanguageClient_serverCommands = {
     \ 'cpp': ['clangd'],
     \ 'java': ['~/bin/eclipse_jdt_ls'],
     \ 'javascript': ['node', '~/src/javascript-typescript-langserver/lib/language-server-stdio.js'],
+    \ 'rust': ['rls'],
     \ }
 
 let g:LanguageClient_autoStart=0
