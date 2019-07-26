@@ -54,6 +54,8 @@ Plug 'rightson/vim-p4-syntax'
 
 Plug 'junegunn/fzf.vim'
 
+Plug 'rust-lang/rust.vim'
+
 " Initialize plugin system
 call plug#end()
 
@@ -114,7 +116,7 @@ nnoremap <A-k> <C-w>k
 nnoremap <A-l> <C-w>l
 tnoremap <Esc><Esc> <C-\><C-n>
 
-set background=light
+set background=dark
 let g:solarized_italic=0
 colorscheme solarized
 call togglebg#map("<F5>")
